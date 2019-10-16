@@ -16,6 +16,8 @@ import android.support.v4.content.FileProvider;
 
 import java.io.File;
 
+import tool.StorageDirUtil;
+
 public class RealPathUtil {
 
 	public static @Nullable Uri compatUriFromFile(@NonNull final Context context,
